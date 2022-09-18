@@ -1,0 +1,48 @@
+.primary-plain-btn:hover,
+.primary-plain-btn:focus {
+  background: $white !important;
+  border-color: $blue-primary !important;
+  color: $blue-primary !important;
+}
+.primary-plain-btn {
+  background: $white !important;
+  color: $blue-primary !important;
+  border-color: $blue-primary !important;
+}
+.primary-plain-btn:hover,
+.primary-plain-btn:focus {
+  background: $white !important;
+  border-color: $blue-primary !important;
+  color: $blue-primary !important;
+}
+.active.primary-plain-btn {
+  background: $blue-primary !important;
+  color: $white !important;
+  &:hover,
+  &:focus {
+    background: $blue-primary !important;
+    border-color: $blue-primary !important;
+    color: $white !important;
+  }
+}
+.warning-plain-btn {
+  background: $white !important;
+  color: $--color-warning !important;
+  border-color: $--color-warning !important;
+}
+.warning-plain-btn:hover,
+.warning-plain-btn:focus {
+  background: $white !important;
+  border-color: $--color-warning !important;
+  color: $--color-warning !important;
+}
+.active.warning-plain-btn {
+  background: $--color-warning !important;
+  color: $white !important;
+  &:hover,
+  &:focus {
+    background: $--color-warning !important;
+    border-color: $--color-warning !important;
+    color: $white !important;
+  }
+}

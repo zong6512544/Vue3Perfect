@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: shizhe
+ * @Date: 2022-09-18 17:07:56
+ * @LastEditTime: 2022-09-18 19:46:57
+ * @LastEditors: shizhe
+ * @Reference: 
+-->
 <script setup lang="ts">
 import { ref } from 'vue'
 
@@ -27,10 +35,11 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
+  <p class="ml-50">
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <div class="full-height width-50"></div>
 </template>
 
 <style scoped>

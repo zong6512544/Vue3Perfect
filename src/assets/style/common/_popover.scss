@@ -1,0 +1,9 @@
+.custom-popover {
+  padding: 12px 0;
+  .file-list-item {
+    padding: 6px 13px;
+    &:hover {
+      background: rgba($blue-5, 0.05);
+    }
+  }
+}

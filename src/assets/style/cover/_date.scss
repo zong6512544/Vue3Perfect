@@ -1,0 +1,21 @@
+.hide-date {
+  .el-date-picker__header {
+    display: none;
+  }
+  .el-date-table tr:not(.el-date-table__row) {
+    display: none;
+  }
+  .el-date-table td.next-month,
+  .el-date-table td.prev-month {
+    display: none;
+  }
+}
+.hide-year {
+  .el-date-picker__header {
+    .el-icon-d-arrow-left,
+    .el-icon-d-arrow-right,
+    .el-date-picker__header-label:first-of-type {
+      display: none;
+    }
+  }
+}
