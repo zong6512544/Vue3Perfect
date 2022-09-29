@@ -174,7 +174,7 @@
     "@vue/compiler-dom" "3.2.39"
     "@vue/shared" "3.2.39"
 
-"@vue/devtools-api@^6.1.4":
+"@vue/devtools-api@^6.0.0-beta.18", "@vue/devtools-api@^6.1.4":
   version "6.4.1"
   resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.4.1.tgz#9def459f5c78ca8d0976e9e29187942e09776b19"
   integrity sha512-tY5m7kwu0R+9GWHSncsE40rCX9ou4HhjhlbgdEMci8j08BE7pLlOpHRcyv6eEP0VYrW1JV0zFh6AoWsoHrVyFw==
@@ -1123,19 +1123,17 @@ vscode-vue-languageservice@0.29.8:
     vscode-pug-languageservice "0.29.8"
     vscode-typescript-languageservice "0.29.8"
 
-<<<<<<< HEAD
 vue-demi@*:
   version "0.13.11"
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
-=======
+
 vue-router@4:
   version "4.1.5"
   resolved "https://registry.npmmirror.com/vue-router/-/vue-router-4.1.5.tgz#256f597e3f5a281a23352a6193aa6e342c8d9f9a"
   integrity sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
->>>>>>> build/base-v_router
 
 vue-tsc@^0.29.8:
   version "0.29.8"
