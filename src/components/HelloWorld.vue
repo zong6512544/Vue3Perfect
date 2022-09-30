@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: shizhe
  * @Date: 2022-09-18 17:07:56
- * @LastEditTime: 2022-09-18 19:46:57
+ * @LastEditTime: 2022-09-30 14:22:14
  * @LastEditors: shizhe
  * @Reference: 
 -->
@@ -27,9 +27,7 @@ const count = ref(0)
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
