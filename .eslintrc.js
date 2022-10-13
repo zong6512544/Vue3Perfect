@@ -26,7 +26,7 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     '@typescript-eslint/ban-ts-ignore': 'off',
-    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-var-requires': 'off',
@@ -144,7 +144,8 @@ module.exports = {
     'no-fallthrough': 'warn',
     'no-extra-boolean-cast': 'warn',
     'no-case-declarations': 'warn',
-    'no-async-promise-executor': 'warn'
+    'no-async-promise-executor': 'warn',
+    'vue/multi-word-component-names': 'off'
   },
   globals: {
     defineProps: 'readonly',
